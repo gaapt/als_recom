@@ -1,0 +1,124 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/BruteForce.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/ConfigFileInterface.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CorrelationEngine.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CommandLineCorrelate.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/MatrixMath.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/BruteForce.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/ConfigFileInterface.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CorrelationEngine.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CommandLineCorrelate.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/MatrixMath.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/BruteForce.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/ConfigFileInterface.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CorrelationEngine.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CommandLineCorrelate.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala, /home/dataker/Dropbox/github/correlation-approximation/src/main/scala/MatrixMath.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 7 Scala sources to /home/dataker/Dropbox/github/correlation-approximation/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler bf1523, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes:/home/dataker/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/dataker/Dropbox/github/correlation-approximation/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/BruteForce.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/BruteForce.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/BruteForce.scala:6: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/BruteForce.scala:16: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m  def run (sc:SparkContext,prop:Properties) = {[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CommandLineCorrelate.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:18: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m    var sc:SparkContext = null[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CommandLineCorrelate.scala:33: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m    def run (sc:SparkContext,config:Properties) = {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:12: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:20: not found: type RDD[0m
+[0m[[31merror[0m] [0m    var trainingMatrixRDD:RDD[(String,Array[Int])] = null[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:14: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.broadcast.Broadcast[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:21: not found: type RDD[0m
+[0m[[31merror[0m] [0m    var originalVectorsRDD:RDD[(String,Array[Double])] = null[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:22: not found: type Broadcast[0m
+[0m[[31merror[0m] [0m    var projection_matricies:Broadcast[Array[Array[Array[Double]]]]  = null[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/Correlator.scala:23: not found: type Broadcast[0m
+[0m[[31merror[0m] [0m    var centroid_matricies:Broadcast[Array[Array[Array[Double]]]] = null[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/ConfigFileInterface.scala:6: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/ConfigFileInterface.scala:32: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m     def run (sc:SparkContext,prop:Properties) = {[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CorrelationEngine.scala:6: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CorrelationEngine.scala:7: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CorrelationEngine.scala:36: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m      val sc : SparkContext = [0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CorrelationEngine.scala:38: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m           new SparkContext("local","ApproximationEngine-"+action)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/CorrelationEngine.scala:40: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m    	       new SparkContext(masterUri,"ApproximationEngine-"+action,spark_home,deploymentCodePaths)[0m
+[0m[[31merror[0m] [0m    	           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.clustering.KMeansModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala:8: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.clustering.KMeans[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala:7: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala:36: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m   def run (sc:SparkContext,prop:Properties) = {[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala:70: not found: type KMeansModel[0m
+[0m[[31merror[0m] [0m    val kmeans_models = Array.fill[KMeansModel](M)(null)[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/TrainingPhase.scala:78: not found: type KMeans[0m
+[0m[[31merror[0m] [0m      val kmeans = new KMeans()[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/MatrixMath.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.commons.math3.stat.correlation.PearsonsCorrelation[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/dataker/Dropbox/github/correlation-approximation/src/main/scala/MatrixMath.scala:15: not found: type PearsonsCorrelation[0m
+[0m[[31merror[0m] [0m	  new PearsonsCorrelation().correlation(v1,v2)[0m
+[0m[[31merror[0m] [0m	      ^[0m
+[0m[[31merror[0m] [0m32 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
